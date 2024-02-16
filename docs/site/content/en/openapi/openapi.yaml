@@ -925,7 +925,7 @@ paths:
         example: 101
       requestBody:
         content:
-          text/plain:
+          application/octet-stream:
             schema:
               type: string
         required: true
@@ -1133,7 +1133,7 @@ paths:
         example: $.schemaURI
       requestBody:
         content:
-          text/plain:
+          application/octet-stream:
             schema:
               type: string
       responses:
